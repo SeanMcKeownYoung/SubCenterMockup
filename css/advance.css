@@ -61,11 +61,11 @@ li {
 /* ADVANCE LOCAL BRANDING start */
 
 .AdvRed {
-  fill: light-dark(#b10000, #b10000) !important;
+  fill: light-dark(#db0101, #ff0000) !important;
       transition: all 0.2s ease-in-out; 
 }
 .AdvRed:hover {
-  fill: light-dark(#ff0000, #ff0000) !important;
+  fill: light-dark(#ff0000, #fb2626) !important;
       transition: all 0.2s ease-in-out; 
 }
 .AdvFill {
@@ -103,9 +103,11 @@ li {
 
 .advBttns .advBttn01 {
     border-color: #808080; transition: all 0.2s ease-in-out; 
+    background-color: light-dark(#dbe2eb, #181b1e) !important;
 }
 .advBttns .advBttn02 {
     border-color: #808080; transition: all 0.2s ease-in-out;
+  background-color: light-dark(#dbe2eb, #181b1e) !important;
 }
 .advBttns .advBttn01 .card-header {
     border-color: #808080; transition: all 0.2s ease-in-out;
@@ -530,3 +532,28 @@ overflow-y: scroll !important ;
 
 }
 
+.hoverWhite {
+  transition: all 0.2s ease-in-out;
+}
+
+.hoverWhite:hover  {
+  color: light-dark(#000, #fff) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.hoverWhite:hover .text-muted {
+  color: light-dark(#000, #fff) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.hoverWhite .text-muted {
+  transition: all 0.2s ease-in-out;
+}
+
+.bg-body-tertiary {
+  background-color: light-dark(#d2dae5, #262a2f) !important;
+}
+
+body {
+  background-color: light-dark(#dbe2eb, #181b1e) !important;
+}
