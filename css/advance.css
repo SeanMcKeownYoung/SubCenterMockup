@@ -172,7 +172,7 @@ li {
 }
 .advBttn05 {
   transition: all 0.2s ease-in-out;
-  color: light-dark(#e40000, #c20000) !important; }
+  }
 
 
 /* SALES BUTTONS STYLES end */
