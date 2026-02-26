@@ -27,9 +27,11 @@ li {
     text-wrap: balance !important;
 }
 
-.card {
-    min-height: 300px !important;
-    
+.cardAdd {
+    min-height: 300px !important;  
+}
+.cardAdd2 {
+    min-height: 220px !important;  
 }
 
 .buttonContainer {

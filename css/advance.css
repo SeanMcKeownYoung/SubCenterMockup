@@ -160,6 +160,21 @@ li {
     border-color:  #808080; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
 }
 
+.advBttn05:hover {
+    border-color: #ff9898 !important; 
+    background-color: light-dark(#e40000, #c20000) !important;
+    height: 80px !important;
+    font-size: 30px !important;
+    transition: all 0.2s ease-in-out; 
+    transform: scale(1.0); z-index: 5 !important; 
+    box-shadow: 0px 0px 5px 4px rgba(255,0,0,0.6), 0px 0px 50px 5px rgba(255,0,0,0.5), 10px 80px 50px 5px rgba(0, 0, 0, 0.5) !important;
+    color: light-dark(#000, #fff) !important;
+}
+.advBttn05 {
+  transition: all 0.2s ease-in-out;
+  color: light-dark(#e40000, #c20000) !important; }
+
+
 /* SALES BUTTONS STYLES end */
 
 .btnApp:hover button {
